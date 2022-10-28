@@ -1,0 +1,50 @@
+.jumbo-container {
+    height: 500px;
+    width:100%;
+    padding:30px;
+    background-image: url('./learning.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    background-size: cover;
+}
+
+.title-div {
+    margin-top: 70px !important;
+    max-width: 700px;
+    margin: auto;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 3px 6px rgb(45, 44, 44);
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.search-container {
+    border-radius: 10px;
+    background-color: white;
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    box-shadow: 1px 3px 7px rgb(45, 44, 44);
+}
+
+.search-widget {
+   border: none;
+   height: 100%;
+   width: 100%;
+   border-radius: 10px;
+   padding: 10px;
+   font-weight: bold;
+   outline: none;
+   transition: box-shadow .2s;
+}
+
+.search-widget:focus {
+    box-shadow: 0px 0px 6px rgb(149, 188, 227);
+}
+
+.sub-text {
+    color: white;
+    font-size: 16px;
+}
