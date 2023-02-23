@@ -35,10 +35,10 @@ import USERLIST from '../_mock/user';
 
 const TABLE_HEAD = [
   { id: 'name', label: 'Name', alignRight: false },
-  { id: 'company', label: 'Company', alignRight: false },
-  { id: 'role', label: 'Role', alignRight: false },
-  { id: 'isVerified', label: 'Verified', alignRight: false },
-  { id: 'status', label: 'Status', alignRight: false },
+  { id: 'company', label: 'Age', alignRight: false },
+  { id: 'role', label: 'Country', alignRight: false },
+  { id: 'isVerified', label: 'Rank', alignRight: false },
+  { id: 'status', label: 'Points YTD', alignRight: false },
   { id: '' },
 ];
 
@@ -73,7 +73,7 @@ function applySortFilter(array, comparator, query) {
   return stabilizedThis.map((el) => el[0]);
 }
 
-export default function UserPage() {
+export default function TeamPage() {
   const [open, setOpen] = useState(null);
 
   const [page, setPage] = useState(0);
@@ -149,16 +149,16 @@ export default function UserPage() {
   return (
     <>
       <Helmet>
-        <title> User | Minimal UI </title>
+        <title> My Team | Minimal UI </title>
       </Helmet>
 
       <Container>
         <Stack direction="row" alignItems="center" justifyContent="space-between" mb={5}>
           <Typography variant="h4" gutterBottom>
-            User
+            My Team
           </Typography>
           <Button variant="contained" startIcon={<Iconify icon="eva:plus-fill" />}>
-            New User
+            Add Player
           </Button>
         </Stack>
 
@@ -204,7 +204,7 @@ export default function UserPage() {
                         <TableCell align="left">{isVerified ? 'Yes' : 'No'}</TableCell>
 
                         <TableCell align="left">
-                          <Label color={(status === 'banned' && 'error') || 'success'}>{sentenceCase(status)}</Label>
+                          <Label color={'success'}>{sentenceCase(status)}</Label>
                         </TableCell>
 
                         <TableCell align="right">

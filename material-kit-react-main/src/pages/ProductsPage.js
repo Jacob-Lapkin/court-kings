@@ -23,12 +23,12 @@ export default function ProductsPage() {
   return (
     <>
       <Helmet>
-        <title> Dashboard: Products | Minimal UI </title>
+        <title> Dashboard: Players | Minimal UI </title>
       </Helmet>
 
       <Container>
         <Typography variant="h4" sx={{ mb: 5 }}>
-          Products
+          Players
         </Typography>
 
         <Stack direction="row" flexWrap="wrap-reverse" alignItems="center" justifyContent="flex-end" sx={{ mb: 5 }}>
