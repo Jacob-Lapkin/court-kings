@@ -1,0 +1,90 @@
+{
+  "table": [
+    {
+      "id": 1,
+      "sku": "asdd3sd",
+      "product": "Product 1",
+      "availability": 120,
+      "price": 19.99,
+      "comment": "Good product",
+      "feedback": "4.5/5"
+    },
+    {
+      "id": 2,
+      "sku": "ssdg3sd",
+      "product": "Product 2",
+      "availability": 44,
+      "price": 29.99,
+      "comment": "Great value",
+      "feedback": "4/5"
+    },
+    {
+      "id": 3,
+      "sku": "mrdg6sd",
+      "product": "Product 3",
+      "availability": 8,
+      "price": 49.99,
+      "comment": "High quality",
+      "feedback": "5/5"
+    },
+    {
+      "id": 4,
+      "sku": "smkds893",
+      "product": "Product 4",
+      "availability": 222,
+      "price": 49.99,
+      "comment": "High quality",
+      "feedback": "5/5"
+    },
+    {
+      "id": 5,
+      "sku": "knms93",
+      "product": "Product 5",
+      "availability": 34,
+      "price": 49.99,
+      "comment": "High quality",
+      "feedback": "5/5"
+    },
+    {
+      "id": 6,
+      "sku": "ks93ks",
+      "product": "Product 6",
+      "availability": 53,
+      "price": 49.99,
+      "comment": "High quality",
+      "feedback": "5/5"
+    }
+  ],
+    "product": {
+      "id": 1,
+      "imageUrl": "https://images.pexels.com/photos/303383/pexels-photo-303383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "title": "Macbook Pro 14 (2021)",
+      "vpn": "123456",
+      "sku": "SKU123",
+      "price": "9.99",
+      "inStock": 10
+    },
+    "history": [
+      {
+        "relationship": "similar",
+        "positive": 4,
+        "negative": 3
+      },
+      {
+        "relationship": "fbt",
+        "positive": 6,
+        "negative": 2
+      },
+      {
+        "relationship": "rfy",
+        "positive": 2,
+        "negative": 5
+      },
+      {
+        "relationship": "cross-sell",
+        "positive": 2,
+        "negative": 1
+      }
+    ]
+  
+}

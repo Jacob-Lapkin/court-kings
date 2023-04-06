@@ -1,0 +1,60 @@
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  
+  .table th {
+    background-color: #1565C0;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+  }
+  
+  .table td:first-child {
+    font-weight: bold;
+  }
+
+  .availability-cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    background-color: #E3FFFA;
+    color: #156F13;
+    border-radius:5px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  .scroll-container::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .scroll-container::-webkit-scrollbar-track {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+  }
+  
+  .scroll-container::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 10px;
+  }
+  
+  .scroll-container::-webkit-scrollbar-thumb:hover {
+    background-color: #aaa;
+  }
+  

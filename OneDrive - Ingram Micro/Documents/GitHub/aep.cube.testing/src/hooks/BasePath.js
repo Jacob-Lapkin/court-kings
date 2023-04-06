@@ -1,0 +1,1 @@
+export const BasePath = 'http://localhost:3001'
